@@ -19,5 +19,6 @@ function compareDrivers(a,b) {
 }
 
 const driversByRevenue = function(drivers) {
-  console.log(compareDrivers);
+  let result = compareDrivers()
+  console.log(result);
 }
